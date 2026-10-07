@@ -1,0 +1,41 @@
+{
+  "environment": "Windows Server 2022 x64 / native Qt WebEngine",
+  "source_commit": "99a2614bc23deb5c0c1d0be5a613e4a98369e6a1",
+  "note": "Synthetic account data and AI response; first account fetch returns 111 fans, the next fetch returns 222. This checks whether export reuses the displayed diagnosis.",
+  "results": {
+    "3.11": {
+      "export": {
+        "filepath": "reports\\diagnosis_report_7311_20261007_060903.md",
+        "diagnosis_fetches": 2,
+        "ai_generations": 1,
+        "export_link_count": 0,
+        "file_http_status": 404,
+        "screen_snapshot_a": true,
+        "file_snapshot_b": true,
+        "screen_ai_marker": true,
+        "file_ai_marker": false
+      },
+      "alerts": [
+        "报告已生成: reports\\diagnosis_report_7311_20261007_060903.md"
+      ],
+      "downloads": []
+    },
+    "3.12": {
+      "export": {
+        "filepath": "reports\\diagnosis_report_7311_20261007_060853.md",
+        "diagnosis_fetches": 2,
+        "ai_generations": 1,
+        "export_link_count": 0,
+        "file_http_status": 404,
+        "screen_snapshot_a": true,
+        "file_snapshot_b": true,
+        "screen_ai_marker": true,
+        "file_ai_marker": false
+      },
+      "alerts": [
+        "报告已生成: reports\\diagnosis_report_7311_20261007_060853.md"
+      ],
+      "downloads": []
+    }
+  }
+}
