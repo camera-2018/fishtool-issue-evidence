@@ -1,0 +1,51 @@
+{
+  "source_sha": "99a2614bc23deb5c0c1d0be5a613e4a98369e6a1",
+  "environment": "Windows Server 2022 x64 (GitHub Actions windows-2022)",
+  "scope": "Original Qt frontend pollTask, lottery task routes, filter service and profile collector. 1000 synthetic commenters, controlled network/AI replies and task delay. Original 1800 iterations with sleep dependency accelerated; not a real 30-minute wait or live Bilibili throughput measurement. Backend process genuinely restarted after completion. Source checkout unchanged.",
+  "results": [
+    {
+      "python": "3.11.9",
+      "native_qt_platform": "windows",
+      "lottery": {
+        "after_release_status": "completed",
+        "after_timeout_status": "running",
+        "before_status": "running",
+        "cancel_endpoint_count": 0,
+        "completed_user_count": 1000,
+        "final_profile_http_calls": 4000,
+        "final_profiles_completed": 1000,
+        "held_http_calls": 13,
+        "held_profiles_completed": 3,
+        "original_ui_still_timeout": true,
+        "poll_calls": 1800,
+        "poll_error": "任务等待超时，请稍后重试",
+        "requested_sleep_ms": 1800000,
+        "resume_control_count": 0,
+        "timing_mode": "sleep dependency accelerated; original 1800 iterations"
+      },
+      "restart_task_http_status": 404
+    },
+    {
+      "python": "3.12.10",
+      "native_qt_platform": "windows",
+      "lottery": {
+        "after_release_status": "completed",
+        "after_timeout_status": "running",
+        "before_status": "running",
+        "cancel_endpoint_count": 0,
+        "completed_user_count": 1000,
+        "final_profile_http_calls": 4000,
+        "final_profiles_completed": 1000,
+        "held_http_calls": 13,
+        "held_profiles_completed": 3,
+        "original_ui_still_timeout": true,
+        "poll_calls": 1800,
+        "poll_error": "任务等待超时，请稍后重试",
+        "requested_sleep_ms": 1800000,
+        "resume_control_count": 0,
+        "timing_mode": "sleep dependency accelerated; original 1800 iterations"
+      },
+      "restart_task_http_status": 404
+    }
+  ]
+}
