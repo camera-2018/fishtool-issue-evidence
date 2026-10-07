@@ -1,0 +1,71 @@
+{
+  "source_sha": "99a2614bc23deb5c0c1d0be5a613e4a98369e6a1",
+  "environment": "GitHub Actions windows-2022, Windows Server 2022 x64, native Qt WebEngine",
+  "scope": "Original watch startup, configuration, database, API and UI. Backend prestarted with file logging to avoid existing PIPE blockage (#5). Pillow supplied for #9. Controlled IO for separate diagnosis/lottery tests; watch startup, storage and state were not patched. No live sampling or Bilibili account login tested.",
+  "results": [
+    {
+      "python": "3.11.9",
+      "qt_platform": "windows",
+      "watch": {
+        "configured_enabled": false,
+        "created_state": "tracking",
+        "discovery_enabled": false,
+        "discovery_text": "尚未跑过发现轮",
+        "enable_control_count": 0,
+        "last_attempt": null,
+        "last_success": null,
+        "monitor": {
+          "consecutive_failures": 0,
+          "cookie_task_running": true,
+          "discovery_task_running": false,
+          "enabled": false,
+          "last_collect_at": null,
+          "last_error": null,
+          "paused": false,
+          "status": "stopped",
+          "target_bvids": [],
+          "task_running": false,
+          "total_collected": 0,
+          "watch_task_running": false
+        },
+        "visible_text": "共 1 条 · 算法 lifecycle_v2\n\n跟踪中 BV1xx411c7mD 失败 0 次 · 下次应采 1791353399 停止跟踪"
+      },
+      "after_backend_restart": {
+        "watch_enabled": false,
+        "watch_task_running": false
+      }
+    },
+    {
+      "python": "3.12.10",
+      "qt_platform": "windows",
+      "watch": {
+        "configured_enabled": false,
+        "created_state": "tracking",
+        "discovery_enabled": false,
+        "discovery_text": "尚未跑过发现轮",
+        "enable_control_count": 0,
+        "last_attempt": null,
+        "last_success": null,
+        "monitor": {
+          "consecutive_failures": 0,
+          "cookie_task_running": true,
+          "discovery_task_running": false,
+          "enabled": false,
+          "last_collect_at": null,
+          "last_error": null,
+          "paused": false,
+          "status": "stopped",
+          "target_bvids": [],
+          "task_running": false,
+          "total_collected": 0,
+          "watch_task_running": false
+        },
+        "visible_text": "共 1 条 · 算法 lifecycle_v2\n\n跟踪中 BV1xx411c7mD 失败 0 次 · 下次应采 1791353390 停止跟踪"
+      },
+      "after_backend_restart": {
+        "watch_enabled": false,
+        "watch_task_running": false
+      }
+    }
+  ]
+}
